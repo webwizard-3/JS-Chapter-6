@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 12%;
+            margin: auto;
+            padding: 10px;
+            border: solid black 2px;
+            border-radius: 20px;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+            padding-left: 20px;
+        }
+        a:hover{
+            color: #0b0b63;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <a href="Result/index.html">Result</a>
+        <a href="Table/index.html">Table</a>
+    </div>
+
+    <script>
+        //CHAPTER 6
+        //TASK1
+        document.write("<h2>TASK 1")
+        var num = 10;
+        document.write("<h3>Result<br>")
+        document.write("The value of a is: ", num, "<br>")
+        document.write("........................<br><br>")
+        ++num;
+        document.write("The value of ++a is: ", num, "<br>")
+        document.write("Now the value of a is: ", num, "<br><br>")
+        document.write("The value of a++ is: ", num, "<br>")
+        num++;
+        document.write("Now the value of a is: ", num, "<br><br>")
+        --num;
+        document.write("The value of --a is: ", num, "<br>")
+        document.write("Now the value of a is: ", num, "<br><br>")
+        document.write("The value of a-- is: ", num, "<br>")
+        num--;
+        document.write("Now the value of a is: ", num, "<br><br>")
+
+
+        //TASK2
+        document.write("<h2>TASK 2")
+        var a = 2, b = 1
+        //            1  -   0 +   1 + 1 
+        var result = --a - --b + ++b + b--;
+        document.write("<h3>a is: ", a, "<br>")
+        document.write("b is: ", b, "<br>")
+        document.write("result is: ", result, "<br>")
+
+        
+        //TASK3
+        document.write("<h2>TASK 3")
+        // var userName  = prompt("Please enter your name","");
+        var userName  = "Ahmed";
+        document.write("<h3>Hello ",userName," , Welcome to our site!")
+
+
+       
+    </script>
+</body>
+
+</html>
